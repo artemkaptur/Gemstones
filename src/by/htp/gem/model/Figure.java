@@ -1,5 +1,5 @@
 /**
- * simple model package
+ * model package
  */
 package by.htp.gem.model;
 
@@ -24,16 +24,17 @@ public class Figure {
 	public Figure(double volume) {
 		this.volume = volume;
 	}
-	
-	/**	 
+
+	/**
 	 * @return double volume
 	 */
 	public double getVolume() {
 		return volume;
 	}
-	
+
 	/**
-	 * @param a - volume
+	 * @param a
+	 *            - volume
 	 * @return nothing
 	 */
 	public void setVolume(double volume) {

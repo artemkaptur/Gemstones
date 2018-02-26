@@ -1,5 +1,5 @@
 /**
- * simple model package
+ * model package
  */
 package by.htp.gem.model;
 
@@ -13,12 +13,11 @@ package by.htp.gem.model;
 public class Gemstone extends Stone {
 
 	/**
-	 * int field cost
-	 *  String field title, transparency
+	 * int field cost String field title, transparency
 	 */
-	String title;
-	int cost;
-	String transparency;
+	private String title;
+	private int cost;
+	private String transparency;
 
 	public Gemstone() {
 		super();

@@ -1,11 +1,11 @@
 /**
- * simple model package
+ * model package
  */
 package by.htp.gem.model;
 
 /**
  * Necklace is the class which is determined as array of gemstones. Includes
- * constructors and getter&setter.
+ * constructors and getters&setter.
  * 
  * @author Artem_Kaptur
  *
@@ -25,7 +25,7 @@ public class Necklace {
 		this.gemstones = gemstones;
 	}
 
-	/**	 
+	/**
 	 * @return Gemstone[] gemstones
 	 */
 	public Gemstone[] getGemstones() {
@@ -33,11 +33,12 @@ public class Necklace {
 	}
 
 	/**
-	 * @param a - necklace
+	 * @param a
+	 *            - necklace
 	 * @return nothing
 	 */
-	public void setGemstones(Gemstone[] necklace) {
-		this.gemstones = necklace;
+	public void setGemstones(Gemstone[] gemstones) {
+		this.gemstones = gemstones;
 	}
 
 }

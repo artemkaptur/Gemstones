@@ -1,5 +1,5 @@
 /**
- * simple model package
+ * model package
  */
 package by.htp.gem.model;
 
@@ -13,8 +13,7 @@ package by.htp.gem.model;
 public class Stone extends Figure {
 
 	/**
-	 * int field density, weight, hardness
-	 * String field color
+	 * int field density, weight, hardness String field color
 	 */
 	private int density;
 	private int weight;
