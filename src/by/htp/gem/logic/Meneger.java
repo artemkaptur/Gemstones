@@ -7,13 +7,13 @@ import by.htp.gem.model.Gemstone;
 import by.htp.gem.model.Necklace;
 
 /**
- *  Interface Meneger includes signatures of methods of Goldsmith and Apprentice: creates
+ *  Interface Manager includes signatures of methods of Goldsmith and Apprentice: creates
  * necklace, counts total cost and weight, sort
  * gemstones in necklace by cost,finds gemstones by transparency.
  * 
  * @author Artem_Kaptur
  */
-public interface Meneger {
+public interface Manager {
 
 	Necklace createNecklace();
 
