@@ -11,7 +11,7 @@ import by.htp.gem.model.*;
  * @author Артем
  *
  */
-public class Apprentice implements Meneger {
+public class Apprentice implements Manager {
 
 	public static final int MG_IN_ONE_CARAT = 300;
 	public static final int MG_IN_ONE_G = 1000;

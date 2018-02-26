@@ -15,7 +15,7 @@ import by.htp.gem.model.*;
  * @author Artem_Kaptur
  *
  */
-public class Goldsmith implements Meneger {
+public class Goldsmith implements Manager {
 
 	public static final int MG_IN_ONE_CARAT = 200;
 	public static final int MG_IN_ONE_G = 1000;
